@@ -1,32 +1,32 @@
-# Phaser 3 template (ES5)
+# Phaser 3 Plantilla (ES6)
 
-Very basic template project for game development with Phaser 3.
+Plantilla básica para el desarrollo de un juego en Phaser 3
 
-## Feature
+## Caracteristicas
 
-- dev server with live-reload
-- build
-- simple `SHOW_ALL` style stretch mode
-- webpack
-- clean structure
-- automatically find available port (start from 4000)
+- Servidor de nodejs y ejecucion en tiempo real
+- Build
+- Modo Responsivo
+- Webpack
+- Estructura limpia
+- Automaticamente inicia en el puerto 4000
 
-## How to run
+## Como ejecutar
 
-### Using yarn
+### Usando yarn
 
 - Prepare: `yarn`
 - Development: `yarn start`
 - Build: `yarn build`
 
-### Using NPM
+### Usando NPM
 
 - Prepare: `npm install`
 - Development: `npm run start`
 - Build: `npm run build`
 
-## Folders
+## Carpetas
 
-- assets: raw assets, you can put images and texture packer files here, export atlas to `media` folder
-- media: image, atlas, sound and whatever you need to ship with the final game
-- src: source code locates here, `main.js` is the entry
+- assets: Se colocan los recursos del juego
+- media: Imagenes, audios, atlas para la construcción del juego
+- src: Código fuente del juego, con el punto de inicio de main.js
